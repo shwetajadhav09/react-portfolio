@@ -7,7 +7,7 @@ import {
   FaLinkedinIn,
   FaRenren,
   FaUser,
-  FaYoutube,
+  FaInstagram,
 } from "react-icons/fa6";
 import {
   ChatApp,
@@ -25,25 +25,25 @@ export const Socials = [
   {
     id: `facebook-${Date.now()}`,
     Icon: FaFacebookF,
-    uril: "",
+    uri: "",
     color: "#1877F2",
   },
   {
     id: `linkedin-${Date.now()}`,
     Icon: FaLinkedinIn,
-    uril: "",
+    uri: "https://www.linkedin.com/in/shweta-jadhav-460548228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bz8XGzvKpSxKQuhoYbDzGzw%3D%3D",
     color: "#0072b1",
   },
   {
     id: `github-${Date.now()}`,
     Icon: FaGithub,
-    uril: "",
+    uri: "https://github.com/shwetajadhav09",
     color: "#fff",
   },
   {
-    id: `youtube-${Date.now()}`,
-    Icon: FaYoutube,
-    uril: "",
+    id: `instagram-${Date.now()}`,
+    Icon: FaInstagram,
+    uri: "",
     color: "#ff0000",
   },
 ];

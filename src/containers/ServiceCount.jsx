@@ -1,7 +1,13 @@
 import React from "react";
+import { ServiceCard } from "../components";
 
 const ServiceCount = () => {
-  return <div>ServiceCount</div>;
+  return <div className="wfull py-6 lg:py-24 mt-24 flex items-center justify-center flex-wrap gap-8">
+    <ServiceCard count={"+1M"} text={"Happy students"}/>
+    <ServiceCard count={"+1M"} text={"Happy students"}/>
+    <ServiceCard count={"+1M"} text={"Happy students"}/>
+    <ServiceCard count={"+1M"} text={"Happy students"}/>
+  </div>;
 };
 
 export default ServiceCount;
