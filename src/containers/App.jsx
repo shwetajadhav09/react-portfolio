@@ -3,6 +3,7 @@ import Header from "./Header"
 import Home from "./Home";
 import ParticlesContainer from "./ParticlesContainer";
 import ServiceCount from "./ServiceCount";
+import About from "./About";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
 
 
       {/*particles container */}
+      
      
       {/*header */}
       <Header/>
@@ -22,6 +24,7 @@ const App = () => {
      <ServiceCount/>
 
       {/*about container */}
+      <About/>
 
       {/*skills container */}
 
