@@ -4,6 +4,7 @@ import Home from "./Home";
 import ParticlesContainer from "./ParticlesContainer";
 import ServiceCount from "./ServiceCount";
 import About from "./About";
+import Skills from "./Skills";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <About/>
 
       {/*skills container */}
+      <Skills/>
 
       {/*projects container */}
 
