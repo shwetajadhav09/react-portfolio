@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Leaf1, Leaf2 } from "../assets";
 import {addDoc, collection} from "firebase/firestore"
 import { db} from "../config/firebase.config"
+import Alert from "./Alert";
 
 const Contact = () => {
 
@@ -12,6 +13,12 @@ const Contact = () => {
     lastName: "",
     email: "",
     message: "",
+  });
+
+  const [alert, setAlert] = useState({
+    isAlert : false,
+    message : "",
+    status : null,
   });
 
   const handleTextChange = (e) => {
@@ -27,13 +34,46 @@ const Contact = () => {
     } else {
       await addDoc(collection(db, "messages"), {...data}).then( () => {
        //throw alert msg
+       setData({ firstName: "", lastName : "", email: "", message: ""});
+       setAlert({
+        isAlert : true,
+        message : "Required fields cannot be empty",
+        status : "warning",
+      });
+
+      setInterval(() =>{
+        setAlert({
+          isAlert : false,
+          message : "",
+          status : null,
+        });
+      }, 4000);
       }).catch(err =>{
-        //throw an alert message
+        setAlert({
+          isAlert : true,
+          message : `Error : $(err.message)`,
+          status : "danger",
+        });
+
+        setInterval(() =>{
+          setAlert({
+            isAlert : false,
+            message : "",
+            status : null,
+          });
+        }, 4000);
       })
     }
   }
 
   return <section id="projects" className=" flex items-center justify-center flex-col gap-12 my-12 ">
+
+    {/*alert section */}
+    <AnimatePresence>
+      {alert.isAlert && (
+        <Alert status={"success"} message={"Thanks for contacting me"}/>
+      )}
+    </AnimatePresence>
 
   {/*title */}
   <div className="w-full flex items-center justify-center py-24">
