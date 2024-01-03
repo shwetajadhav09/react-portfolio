@@ -5,9 +5,9 @@ import { HeroTypeWritter, HomeSocialLinks } from "../components";
 import { Socials } from "../utils/helper";
 
 const Home = () => {
-  return <section id="home" className=" flex items-center justify-center flex-col gap-12 relative ">
+  return <section id="home" className=" flex items-center justify-center flex-col gap-12 relative p-12 ">
     
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full ">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full ">
       
     {/*content section */}
 
