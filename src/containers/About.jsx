@@ -39,17 +39,19 @@ const About = () => {
       {/*content section */}
       <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
         <p className="text-texlight text-base tracking-wide text-justify">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dolorem sint repudiandae magni doloribus totam voluptatibus 
-          tenetur sunt officiis. Optio numquam voluptatem quos pariatur aut possimus accusamus, inventore illo placeat!
+        As a pre-final year student in Computer Science and Engineering (CSE), 
+        I find myself immersed in a thrilling journey of perpetual learning and exploration.
+         Proficient in C++ programming, I am constructing a robust base in Data Structures and Algorithms (DSA), 
+         approaching problem-solving with a methodical and analytical mindset.
         </p> <br/>
         <p className="text-texlight text-base tracking-wide text-justify">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dolorem sint repudiandae magni doloribus totam voluptatibus 
-          tenetur sunt officiis. Optio numquam voluptatem quos pariatur aut possimus accusamus, inventore illo placeat!
+        Presently, my primary focus revolves around immersing myself in the dynamic realm of web development, 
+        where I am refining my expertise in the MERN stack – MongoDB, Express.js, React, and Node.js. I am enthusiastically 
+        embracing novel challenges, seeking collaboration with individuals who share similar passions, and actively contributing to 
+        projects and initiatives that hold significance. My ardent desire is to cultivate both professional and personal growth, 
+        seizing every opportunity for the enhancement of knowledge and skills along this exciting journey.
         </p> <br/>
-        <p className="text-texlight text-base tracking-wide text-justify">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dolorem sint repudiandae magni doloribus totam voluptatibus 
-          tenetur sunt officiis. Optio numquam voluptatem quos pariatur aut possimus accusamus, inventore illo placeat!
-        </p>
+       
 
           
       </div>
