@@ -52,8 +52,8 @@ const App = () => {
           </div>
 
           <div className="w-full grid grid-cols-1 lg:grid-cols-3 mt-12">
-            <p className="text-texlight text-center">Sample para</p>
-            <p className="text-texlight text-center">Sample para</p>
+            <p className="text-texlight text-center">Sample paragraph</p>
+            <p className="text-texlight text-center">Sample paragraph</p>
             <div className="w-full flex flex-col items-center justify-center gap-3">
               <p className="text-texlight text-center">shwetajadhav99255@gmail.com</p>
               <p className="text-texlight text-center">7486926260</p>
