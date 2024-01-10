@@ -25,7 +25,7 @@ const Home = () => {
 
       <p className="text-base text-texlight mt-6 text-center lg:text-left"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. B
         landitiis odit consequuntur provident velit tempora. Explicabo perspiciatis dolores accusantium omnis, 
-        qui sed quibusdam corporis ratione quisquamm sapiente quaerat nesciunt suscipit ipsa!</p>
+        qui sed quibusdam corporis ratione quisquamm sapiente quaerat nesciunt suscipit ipsa!!</p>
 
         {/*social media links */}
 
