@@ -39,7 +39,7 @@ const About = () => {
       {/*content section */}
       <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
         <p className="text-texlight text-base tracking-wide text-justify">
-        As a pre-final year student in Computer Science and Engineering (CSE), 
+        As a pre-final year student in Computer Science and Engineering (CSE) , 
         I find myself immersed in a thrilling journey of perpetual learning and exploration.
          Proficient in C++ programming, I am constructing a robust base in Data Structures and Algorithms (DSA), 
          approaching problem-solving with a methodical and analytical mindset.
