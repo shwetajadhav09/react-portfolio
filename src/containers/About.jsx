@@ -49,7 +49,7 @@ const About = () => {
         where I am refining my expertise in the MERN stack – MongoDB, Express.js, React, and Node.js. I am enthusiastically 
         embracing novel challenges , seeking collaboration with like-minded individuals, and actively contributing to 
         projects and initiatives that hold significance. My ardent desire is to cultivate both professional and personal growth, 
-        seizing every opportunity for the enhancement of knowledge and skills along this exciting journey.
+        seizing every opportunity for the enhancement of my knowledge and skills.
         </p> <br/>
        
 
