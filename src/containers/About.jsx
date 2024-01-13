@@ -15,7 +15,7 @@ const About = () => {
       transition={{delay :0.4}}
       className="flex items-center justify-center py-24">
         <img src={Leaf1} className="w-6 h-auto object-contain" alt=""></img>
-        <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary ">About</p>
+        <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary ">About Me</p>
         <img src={Leaf2} className="w-6 h-auto object-contain" alt=""></img>
       </motion.div>
     </div>
