@@ -19,6 +19,8 @@ import {
   PortfolioFirebase,
   RestaurantClone,
   SocialMedia,
+  JavaScriptProject,
+  ecommerce
 
 } from "../assets";
 
@@ -83,58 +85,18 @@ export const Menus = [
 ];
 
 export const ProjectsData = [
+  
   {
-    id: `food-${Date.now()}`,
-    name: "Single Food Restaurant",
-    imgSrc: RestaurantClone,
-    gitURL: "https://github.com/Vetrivel-VP",
+    id: `ecommerce-${Date.now()}`,
+    name: "Ecommerce Website",
+    imgSrc: ecommerce,
+    gitURL: "https://github.com/shwetajadhav09/mernBackend",
   },
+
   {
-    id: `codepen-${Date.now()}`,
-    name: "CodePen Clone",
-    imgSrc: CodePenClone,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `openai-${Date.now()}`,
-    name: "OpenAI",
-    imgSrc: OpenAI,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `chatapp-${Date.now()}`,
-    name: "Chat App Build",
-    imgSrc: ChatApp,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `imageSharing-${Date.now()}`,
-    name: "Image Sharing App",
-    imgSrc: ImageSharing,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `pixabayclone-${Date.now()}`,
-    name: "Pixabay Clone 2.0",
-    imgSrc: PixabayClone,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `freshjuiceui-${Date.now()}`,
-    name: "Fresh Juice UI Build",
-    imgSrc: FreshJuiceUI,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `socialmedia-${Date.now()}`,
-    name: "Social Media App",
-    imgSrc: SocialMedia,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `portfoliofirebase-${Date.now()}`,
-    name: "Portfolio UI Fireabse",
-    imgSrc: PortfolioFirebase,
-    gitURL: "https://github.com/Vetrivel-VP",
+    id: `javascript-${Date.now()}`,
+    name: "HTML/CSS/JAVASCRIPT projects",
+    imgSrc: JavaScriptProject,
+    gitURL: "https://github.com/shwetajadhav09/html-css-js-projects",
   },
 ];

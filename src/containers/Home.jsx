@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Shweta } from "../assets";
 import { HeroTypeWritter, HomeSocialLinks } from "../components";
 import { Socials } from "../utils/helper";
+import { resume } from "../assets";
 
 const Home = () => {
   return <section id="home" className=" flex items-center justify-center flex-col gap-12 relative p-12 ">
@@ -23,9 +24,11 @@ const Home = () => {
       words={["Student..." , "Developer..."]} />
       </h2>
 
-      <p className="text-base text-texlight mt-6 text-center lg:text-left"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. B
-        landitiis odit consequuntur provident velit tempora. Explicabo perspiciatis dolores accusantium omnis, 
-        qui sed quibusdam corporis ratione quisquam sapiente quaerat nesciunt suscipit ipsa!</p>
+      <p className="text-base text-texlight mt-6 text-center lg:text-left"> Welcome to my portfolio! I'm Shweta,
+         a final year student pursuing BTech in Computer Science and Engineering. I have a passion for technology and innovation, 
+         with a keen interest in Web Development and software development.  Explore my portfolio to learn more about my projects, skills, and experiences. 
+         Let's connect and explore opportunities to collaborate!
+      </p>
 
         {/*social media links */}
 
@@ -38,11 +41,12 @@ const Home = () => {
         </div>
 
         {/*Hire me */}
-        <a href="#"
+        
+        <a href={resume} target="_blank" rel="noopener noreferrer"
         style={{boxShadow : "inset 0px 0px 10px rgba(255, 255 ,255, 0.3)"}} 
         className="mt-12 border border-[rgba(255, 255,255, 0.3)] rounded-xl px-8 py-3 active:95 
         group hover:border-primary">
-          <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-secondary">Hire me</p>
+          <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-secondary"> View Resume</p>
         </a>
 
     </div>
@@ -53,14 +57,16 @@ const Home = () => {
      initial={{ y: 0 }}
      animate={{ y: [-10,10,-10]}}
      transition={{
-      repeat : Infinity,
+      repeat :Infinity,
       duration : 2,
       ease : "linear",
      }}
      src={Shweta} 
-     className="w-auto h-auto object-contain"
+     className="object-cover w-64 h-96 rounded-lg rounded-full"
+     style={{ position: 'relative' }}
      
      />
+      
      </div>
 
 

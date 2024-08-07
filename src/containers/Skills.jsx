@@ -30,28 +30,27 @@ const Skills = () => {
     <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
     <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary ">Skills and work experience</p>
       <p className="text-texlight text-base tracking-wide text-justify">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dolorem sint repudiandae magni doloribus totam voluptatibus 
-        tenetur sunt officiis. Optio numquam voluptatem quos pariatur aut possimus accusamus, inventore illo placeat!
+      I possess a robust technical skill set with a strong foundation in C++, 
+      which allows me to efficiently handle complex algorithms and system-level programming. 
+      My proficiency in JavaScript is complemented by hands-on experience with modern frameworks and libraries such as ReactJS, 
+      enabling me to build dynamic and responsive web applications. On the server side, I am familiar with NodeJS, which I leverage to create scalable 
+      and performant backend services. Additionally, I have a solid command of HTML and CSS, ensuring that my web designs are not only functional but also visually appealing and user-friendly.
+
+
       </p> <br/>
-      <p className="text-texlight text-base tracking-wide text-justify">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dolorem sint repudiandae magni doloribus totam voluptatibus 
-        tenetur sunt officiis. Optio numquam voluptatem quos pariatur aut possimus accusamus, inventore illo placeat!
-      </p> <br/>
-      <p className="text-texlight text-base tracking-wide text-justify">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dolorem sint repudiandae magni doloribus totam voluptatibus 
-        tenetur sunt officiis. Optio numquam voluptatem quos pariatur aut possimus accusamus, inventore illo placeat!
-      </p>
+      
 
         
     </div>
 
     <div className="w-full flex flex-col items-center justify-center px-8">
-      
+    <SkillCard skill={"C++"} percentage={"80%"} color={"#008FFF"} />
       <SkillCard 
       skill={"HTML5"} 
       percentage={"95%"} 
       color={"#FF3F3F"} 
       move={true}/>
+      
       <SkillCard skill={"CSS 3"} percentage={"80%"} color={"#008FFF"}/>
       <SkillCard skill={"Javascript"} percentage={"60%"} color={"#FFB900"} move={true}/>
       <SkillCard skill={"ReactJs"} percentage={"50%"} color={"#00FFF3"}/>

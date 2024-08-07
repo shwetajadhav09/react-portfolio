@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header"
 import Home from "./Home";
 import ParticlesContainer from "./ParticlesContainer";
-import ServiceCount from "./ServiceCount";
+
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
@@ -26,8 +26,6 @@ const App = () => {
       {/*home container*/}
      <Home/>
 
-     {/*services count card */}
-     <ServiceCount/>
 
       {/*about container */}
       <About/>

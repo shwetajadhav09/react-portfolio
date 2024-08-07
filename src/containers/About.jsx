@@ -27,7 +27,7 @@ const About = () => {
         <div className="w-full lg:w-96 p-[2px] rounded-md bg-gradient-to-r from bg-primary to-secondary relative">
           <img src={shweta1}
            className="w-full rounded-md h-auto object-contain"
-           style={{ maxWidth: '100%' }}
+           style={{ maxWidth: '100%', height: 'auto' }} 
             alt=""></img>
 
             <div className="absolute w-full h-full -top-3 -left-2 bg-gradient-to-r from bg-primary to-secondary rounded-md blur[5px]
