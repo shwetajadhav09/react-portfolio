@@ -24,11 +24,15 @@ const Home = () => {
       words={["Student..." , "Developer..."]} />
       </h2>
 
+
       <p className="text-base text-texlight mt-6 text-center lg:text-left"> Welcome to my portfolio! I'm Shweta,
          a final year student pursuing BTech in Computer Science and Engineering. I have a passion for technology and innovation, 
          with a keen interest in Web Development and software development.  Explore my portfolio to learn more about my projects, skills, and experiences. 
          Let's connect and explore opportunities to collaborate!
       </p>
+
+      
+
 
         {/*social media links */}
 

@@ -46,7 +46,7 @@ export const Socials = [
   {
     id: `instagram-${Date.now()}`,
     Icon: FaInstagram,
-    uri: "",
+    uri: "https://www.instagram.com/shwespamm/?next=%2F",
     color: "#ff0000",
   },
 ];

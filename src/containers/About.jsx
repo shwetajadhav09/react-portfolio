@@ -15,7 +15,7 @@ const About = () => {
       transition={{delay :0.4}}
       className="flex items-center justify-center py-24">
         <img src={Leaf1} className="w-6 h-auto object-contain" alt=""></img>
-        <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary ">About</p>
+        <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary ">About Me</p>
         <img src={Leaf2} className="w-6 h-auto object-contain" alt=""></img>
       </motion.div>
     </div>
@@ -39,7 +39,7 @@ const About = () => {
       {/*content section */}
       <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
         <p className="text-texlight text-base tracking-wide text-justify">
-        As a pre-final year student in Computer Science and Engineering (CSE), 
+        As a pre-final year student in Computer Science and Engineering (CSE) , 
         I find myself immersed in a thrilling journey of perpetual learning and exploration.
          Proficient in C++ programming, I am constructing a robust base in Data Structures and Algorithms (DSA), 
          approaching problem-solving with a methodical and analytical mindset.
@@ -47,9 +47,9 @@ const About = () => {
         <p className="text-texlight text-base tracking-wide text-justify">
         Presently, my primary focus revolves around immersing myself in the dynamic realm of web development, 
         where I am refining my expertise in the MERN stack – MongoDB, Express.js, React, and Node.js. I am enthusiastically 
-        embracing novel challenges, seeking collaboration with individuals who share similar passions, and actively contributing to 
+        embracing novel challenges , seeking collaboration with like-minded individuals, and actively contributing to 
         projects and initiatives that hold significance. My ardent desire is to cultivate both professional and personal growth, 
-        seizing every opportunity for the enhancement of knowledge and skills along this exciting journey.
+        seizing every opportunity for the enhancement of my knowledge and skills.
         </p> <br/>
        
 
